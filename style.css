@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --bg-color: #edf2ff;
+    --border-color: #9a9ce9;
+    --fontGlobal: 'Roboto Mono', monospace;
+    --fonth2: #6b3d70;
+    --hover: #6F69F3;
+    --footer:#00082f;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    font-size: 1.6rem;
+    background-color: var(--bg-color);
+    margin: 0 auto;
+    font-family: var(--fontGlobal);
+}
+
+main {
+    width: 300px;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+
+.image-container img {
+    width: 10rem;
+    border: var(--border-color) solid 4px;
+    padding: 3.7px;
+    border-radius: 50%;
+}
+
+.name-tittle h2 {
+    font-family: var(--fonth1);
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: var(--fonth2);
+    opacity: .8;
+    margin-bottom: 3rem;
+}
+
+.social-media li {
+    height: 5.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--border-color);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    border-radius: .6rem;
+    cursor: pointer;
+}
+
+.social-media li:hover {
+    background-color: var(--hover);
+    transition: 400ms;
+    
+}
+
+.social-media ul {
+    list-style: none;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+footer{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--footer);
+    opacity: 0.6;
+}
+
+
+
